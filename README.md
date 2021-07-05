@@ -1,5 +1,8 @@
 # Telegram 隨機色圖機器人
 
+### 使用此原始碼的Bot
+> 開放的隨機色圖機器人: [@katonei_bot](https://t.me/katonei_bot)
+
 ### 已實現的功能
 - 爬取每日R18排行榜
 - 不夠色！再來一張
