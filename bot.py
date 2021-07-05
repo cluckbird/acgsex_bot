@@ -83,9 +83,7 @@ def bothelp(update, context):
     helptext = '''BOT 使用幫助
 `/sex` 隨機發送一張色圖
 `/sex 標籤名` 隨機發送一張含該標籤的色圖  
-`/ping` 查看伺服器和bot信息
-點擊 “不夠色” 按鈕後，將會向管理員發送一條訊息
-不夠色的圖將會在審查後被移除'''
+`/ping` 查看伺服器和bot信息'''
     context.bot.send_message(chat_id=update.effective_chat.id, reply_to_message_id=eval(str(update))['message']['message_id'], text=helptext, parse_mode="MarkdownV2")
 
 def test(update, context):
